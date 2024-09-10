@@ -1,0 +1,194 @@
+/*style for header*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.header-start{
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0,0.4);
+    position: sticky;
+    top: 0;
+    height: 80px;
+}
+.logo{
+    display: inline-block;
+    margin-left: 8px;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+.logo span{
+    color: blue;
+}
+nav{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    float: right;
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+nav, a, .drop-btn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 200px;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    text-align: center;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-right: 10px;
+}
+.dropdown-content a:hover{
+    background-color: #bbb;
+}
+.dropdown:hover.dropdown-content{
+    background-color: #bbb;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/*style for about title*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+.about-section{
+    padding: 50px;
+    text-align: left;
+    background-color:rgb(207, 91, 91);  
+}
+h2{
+    color: rgb(17, 17, 17);
+    font-style: bold;
+}
+h1{
+    color: aqua;
+    font-style: bold;
+}
+h5{
+    color: aqua;
+    font-style: bold;
+}
+p{
+    color: aqua;
+    font-style: bold;
+}
+h2 span{
+    color: rgb(55, 55, 61);
+    font-style: bold;
+    font-family: fantasy;
+}
+.about-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-style: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro-section{
+    text-align: center;
+    border: 1px solid;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+h5{
+    color: black;
+    font-style: bold;
+}
+/*style for hero section*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
+}
+.hero-container{
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(5, 41, 44);
+    margin-top: 5px;
+}
+.hero-text{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: rgb(10, 9, 9);
+}
+.hero-image{
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.hero-image img{
+    width: 200px;
+    height: 300px;
+    border-radius: 0px 70px 0px 70px;
+}
+    
+
+.hero-btn{
+    border: none;
+    background-color: rgb(63, 63, 71);
+    color: white;
+    font-size: 16px;
+    padding: 12px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-style: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-btn:hover{
+    background-color: green;
+}
+/*style for the footer*/
+footer{
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: grey;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer span{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
