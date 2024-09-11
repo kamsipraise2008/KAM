@@ -185,3 +185,41 @@ footer span{
     font-weight: bold;
     color: black;
 }
+
+@media(max-width:600px){
+   .hero-container{
+    display: inline-block;
+    flex-direction: column;
+    margin-bottom: 5px;
+   } 
+   .hero-btn{
+    display: flex;
+    flex-direction: row;
+    padding: 6px 5px;
+    margin: 10px;
+    gap: 2rem;
+font-size: 12px;
+   }
+
+   .hero-image{
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+.hero-image img{
+    width: 100px;
+    height: 300px;
+    border-radius: 0px 70px 0px 70px;
+}
+h1{
+font-size: 16px;
+}
+p{
+    font-size: 10px;
+}
+.testimonial-container p span{
+    font-size: medium;
+}
+}

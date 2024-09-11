@@ -192,3 +192,8 @@ footer span{
     font-weight: bold;
     color: black;
 }
+@media(max-width:600px){
+    .hero-text p{
+        font-size: 8px;
+    }
+}
